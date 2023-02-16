@@ -1,0 +1,4 @@
+'administer geo_redirect':
+  title: 'Administer Geo redirect'
+  description: 'Administrative access to the Geo redirect pages.'
+  'restrict access': true

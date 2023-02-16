@@ -1,0 +1,29 @@
+geo_redirect.list:
+  path: /admin/config/search/geo-redirect
+  defaults:
+    _title: 'Geo redirect URLs'
+    _controller: '\Drupal\geo_redirect\Controller\DefaultController::geo_redirect_list'
+  requirements:
+    _permission: 'administer geo_redirect'
+geo_redirect.edit_form:
+  path: '/admin/config/search/geo-redirect/edit/{gid}'
+  defaults:
+    gid: null
+    _title: 'Edit geo redirect'
+    _form: \Drupal\geo_redirect\Form\GeoRedirectEditForm
+  requirements:
+    _permission: 'administer geo_redirect'
+geo_redirect.delete_form:
+  path: '/admin/config/search/geo-redirect/delete/{gid}'
+  defaults:
+    _title: 'Delete redirect'
+    _form: \Drupal\geo_redirect\Form\GeoRedirectDeleteForm
+  requirements:
+    _permission: 'administer geo_redirect'
+geo_redirect.settings_form:
+  path: /admin/config/search/geo-redirect/settings
+  defaults:
+    _title: Settings
+    _form: \Drupal\geo_redirect\Form\GeoRedirectSettingsForm
+  requirements:
+    _permission: 'administer geo_redirect'

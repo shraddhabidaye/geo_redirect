@@ -1,0 +1,6 @@
+services:
+  init_subscriber:
+    class: Drupal\geo_redirect\EventSubscriber\GeoRedirectSubscriber
+    tags:
+      -
+        name: event_subscriber

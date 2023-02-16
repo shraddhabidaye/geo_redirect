@@ -1,0 +1,5 @@
+geo_redirect.edit_form:
+  route_name: geo_redirect.edit_form
+  title: 'Add geo redirect'
+  appears_on:
+    - geo_redirect.edit_form

@@ -1,0 +1,31 @@
+{
+    "name": "drupal/geo_redirect",
+    "description": "Allows country-wise redirect.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/geo_redirect",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/geo_redirect",
+        "source": "https://git.drupalcode.org/project/geo_redirect"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "geoip2/geoip",
+            "version": "2.12.2",
+            "dist": {
+              "url": "https://github.com/maxmind/GeoIP2-php/archive/refs/tags/v2.12.2.zip",
+              "type": "zip"
+            }
+          }
+        }
+    ],  
+    "minimum-stability": "dev",
+    "require": {
+        "geoip2/geoip2": "2.12.2"
+    }
+}
