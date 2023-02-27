@@ -10,7 +10,7 @@ use Drupal\Core\Controller\ControllerBase;
 /**
  * Default controller for the geo_redirect module.
  */
-class DefaultController extends ControllerBase {
+class GeoRedirectController extends ControllerBase {
 
   public function geo_redirect_list() {
     $output = '';
