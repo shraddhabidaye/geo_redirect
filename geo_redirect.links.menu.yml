@@ -1,6 +1,6 @@
 geo_redirect.list:
-  route_name: geo_redirect.list
   title: 'Geo redirect URLs'
+  route_name: geo_redirect.list
   description: 'Redirect users from one URL to another based on their country.'
   parent: system.admin_config_search
 geo_redirect.edit_form:

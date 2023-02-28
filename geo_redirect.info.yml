@@ -3,5 +3,4 @@ description: 'Allow Country-wise redirects.'
 core: 8.x
 core_version_requirement: ^8 || ^9
 type: module
-configure: geo_redirect.configure
-dependencies: {  }
+configure: geo_redirect.list

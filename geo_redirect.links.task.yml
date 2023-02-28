@@ -3,8 +3,8 @@ geo_redirect.list:
   title: List
   weight: -10
   base_route: geo_redirect.list
-geo_redirect.settings_form:
-  route_name: geo_redirect.settings_form
+geo_redirect.settings:
+  route_name: geo_redirect.settings
   title: Settings
   weight: 50
   base_route: geo_redirect.list
